@@ -1,0 +1,94 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : checkMesh
+Date   : Apr 28 2024
+Time   : 13:49:05
+Host   : "c201-011.frontera.tacc.utexas.edu"
+PID    : 93047
+I/O    : uncollated
+Case   : /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-16
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Time = 0
+
+Mesh stats
+    points:           4400
+    internal points:  0
+    faces:            8200
+    internal faces:   3800
+    cells:            2000
+    faces per cell:   6
+    boundary patches: 6
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     2000
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    inlet               60       122      ok (non-closed singly connected)  
+    outlet              60       122      ok (non-closed singly connected)  
+    polygon             160      320      ok (non-closed singly connected)  
+    top                 2000     2200     ok (non-closed singly connected)  
+    bottom              2000     2200     ok (non-closed singly connected)  
+    outside             120      244      ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (0 0 -0.05) (18 4 0.05)
+    Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
+    Mesh has 3 solution (non-empty) directions (1 1 1)
+    Boundary openness (1.13885e-18 -7.54323e-19 -1.49545e-15) OK.
+    Max cell openness = 1.91089e-16 OK.
+    Max aspect ratio = 72.3992 OK.
+    Minimum face area = 0.00162212. Maximum face area = 0.191753.  Face area magnitudes OK.
+    Min volume = 0.00025037. Max volume = 0.0191753.  Total volume = 7.12346.  Cell volumes OK.
+    Mesh non-orthogonality Max: 32.4061 average: 13.149
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 1.67044 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+
+
+--> FOAM FATAL IO ERROR: 
+keyword version is undefined in dictionary "/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-16/5/uniform/time"
+
+file: /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-16/5/uniform/time from line 10 to line 13.
+
+    From function const Foam::entry &Foam::dictionary::lookupEntry(const Foam::word &, bool, bool) const
+    in file db/dictionary/dictionary.C at line 573.
+
+FOAM exiting
+

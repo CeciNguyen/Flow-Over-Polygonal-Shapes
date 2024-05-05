@@ -1,0 +1,26 @@
+Probe Locations
+(7.5  2    0)
+(8.5  2.5  0)
+(8.5  1.5  0)
+(9.5  3    0)
+(9.5  1    0)
+
+Polygon 4 Probe      Strouhal Numbers
+(8.5  2.5  0)        1.807409
+(8.5  1.5  0)        1.807409
+(9.5  3    0)        1.248315
+
+Polygon 8 Probe      Strouhal Numbers
+(8.5  2.5  0)        2.002583
+(8.5  1.5  0)        2.002583
+(9.5  3    0)        0.955800
+
+Polygon 16 Probe     Strouhal Numbers
+(8.5  2.5  0)        1.590302
+(8.5  1.5  0)        1.590302
+(9.5  3    0)        0.990650
+
+Polygon 32 Probe     Strouhal Numbers
+(8.5  2.5  0)        1.189161
+(8.5  1.5  0)        1.189161
+(9.5  3    0)        0.994852

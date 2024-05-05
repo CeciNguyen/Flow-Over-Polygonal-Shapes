@@ -1,0 +1,121 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "10";
+    object      p;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -2 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+50
+(
+-0.100832
+-0.0761601
+-0.0630472
+-0.0387128
+-0.0138719
+-0.0497094
+-0.0299423
+-0.017084
+0.00449004
+0.0265732
+-0.015437
+-0.00319937
+0.00444484
+0.0164359
+0.0284857
+0.00252953
+0.0110527
+0.0162105
+0.0245003
+0.0319195
+0.0127369
+0.0169722
+0.019594
+0.0234813
+0.0272414
+0.018601
+0.0216611
+0.023313
+0.0260887
+0.0283165
+0.0213551
+0.0225373
+0.0233005
+0.0244067
+0.0254708
+0.0232561
+0.0243962
+0.0249624
+0.0259188
+0.0266574
+0.0236611
+0.0239335
+0.0241473
+0.0244237
+0.0247462
+0.0247978
+0.0252089
+0.0254521
+0.0258279
+0.0261338
+)
+;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            fixedValue;
+        value           nonuniform 0();
+    }
+    polygon
+    {
+        type            zeroGradient;
+    }
+    top
+    {
+        type            symmetryPlane;
+    }
+    bottom
+    {
+        type            symmetryPlane;
+    }
+    outside
+    {
+        type            slip;
+    }
+    procBoundary0to1
+    {
+        type            processor;
+        value           nonuniform List<scalar> 4(-0.153207 -0.130234 -0.121562 -0.0938718);
+    }
+    procBoundary0to4
+    {
+        type            processor;
+        value           nonuniform List<scalar> 10(0.0217171 0.0542241 0.0415996 0.0402691 0.0310029 0.0307862 0.0265002 0.0274478 0.0250238 0.0264674);
+    }
+    procBoundary0to5
+    {
+        type            processor;
+        value           uniform -0.0705385;
+    }
+}
+
+
+// ************************************************************************* //
