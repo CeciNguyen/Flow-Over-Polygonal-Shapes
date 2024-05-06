@@ -1,0 +1,152 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7
+Exec   : blockMesh
+Date   : May 06 2024
+Time   : 09:40:50
+Host   : "c205-004.frontera.tacc.utexas.edu"
+PID    : 60449
+I/O    : uncollated
+Case   : /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/fast-16
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/fast-16/constant/polyMesh"
+Creating block mesh from
+    "/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/fast-16/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 20
+		Number of boundary faces : 80
+		Number of defined boundary faces : 80
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.115381 .. 0.115381 0.115343 0.115381 .. 0.115381 0.115343 .. 0.115343 
+        j : 0.0191342
+        k : 0.1
+    Block 1 cell size :
+        i : 0.116464 .. 0.116464 0.116356 .. 0.116356 0.116464 .. 0.116464 0.116356 .. 0.116356 
+        j : 0.0162212 0.0162215 .. 0.0162215 0.0162212 0.0162215 .. 0.0162215 
+        k : 0.1
+    Block 2 cell size :
+        i : 0.076903 0.0774449 .. 0.0774449 0.076903 .. 0.076903 0.0774449 .. 0.0774449 
+        j : 0.0162212 0.0162302 .. 0.0162302 0.0162212 0.0162302 .. 0.0162302 
+        k : 0.1
+    Block 3 cell size :
+        i : 0.075 .. 0.075 0.0751903 0.075 .. 0.075 0.0751903 
+        j : 0.0191342 .. 0.0191342 0.0191351 .. 0.0191351 0.0191342 .. 0.0191342 0.0191351 .. 0.0191351 
+        k : 0.1
+    Block 4 cell size :
+        i : 0.076903 0.0767127 .. 0.0767127 0.076903 .. 0.076903 0.0767127 
+        j : 0.0191342 0.0191351 .. 0.0191351 0.0191342 0.0191351 .. 0.0191351 
+        k : 0.1
+    Block 5 cell size :
+        i : 0.0823223 0.0817804 .. 0.0817804 0.0823223 0.0817804 .. 0.0817804 
+        j : 0.0162212 0.0162302 .. 0.0162302 0.0162212 0.0162302 .. 0.0162302 
+        k : 0.1
+    Block 6 cell size :
+        i : 0.276903 .. 0.276903 0.277445 .. 0.277445 0.276903 .. 0.276903 0.277445 .. 0.277445 
+        j : 0.0162212 .. 0.0162212 0.0162302 .. 0.0162302 0.0162212 .. 0.0162212 0.0162302 .. 0.0162302 
+        k : 0.1
+    Block 7 cell size :
+        i : 0.275 .. 0.275 0.27519 .. 0.27519 0.275 .. 0.275 0.27519 .. 0.27519 
+        j : 0.0191342 0.0191351 .. 0.0191351 0.0191342 0.0191351 .. 0.0191351 
+        k : 0.1
+    Block 8 cell size :
+        i : 0.276903 .. 0.276903 0.276713 .. 0.276713 0.276903 .. 0.276903 0.276713 .. 0.276713 
+        j : 0.0191342 0.0191351 0.0191342 0.0191351 
+        k : 0.1
+    Block 9 cell size :
+        i : 0.282322 .. 0.282322 0.28178 .. 0.28178 0.282322 .. 0.282322 0.28178 .. 0.28178 
+        j : 0.0162212 .. 0.0162212 0.0162302 .. 0.0162302 0.0162212 .. 0.0162212 0.0162302 
+        k : 0.1
+    Block 10 cell size :
+        i : 0.076903 .. 0.076903 0.0774449 .. 0.0774449 0.076903 .. 0.076903 0.0774449 .. 0.0774449 
+        j : 0.0162212 .. 0.0162212 0.0162302 0.0162212 .. 0.0162212 0.0162302 .. 0.0162302 
+        k : 0.1
+    Block 11 cell size :
+        i : 0.075 .. 0.075 0.0751903 .. 0.0751903 0.075 .. 0.075 0.0751903 .. 0.0751903 
+        j : 0.0191342 .. 0.0191342 0.0191351 .. 0.0191351 0.0191342 .. 0.0191342 0.0191351 .. 0.0191351 
+        k : 0.1
+    Block 12 cell size :
+        i : 0.076903 .. 0.076903 0.0767127 .. 0.0767127 0.076903 .. 0.076903 0.0767127 .. 0.0767127 
+        j : 0.0191342 .. 0.0191342 0.0191351 0.0191342 .. 0.0191342 0.0191351 .. 0.0191351 
+        k : 0.1
+    Block 13 cell size :
+        i : 0.0823223 .. 0.0823223 0.0817804 .. 0.0817804 0.0823223 .. 0.0823223 0.0817804 .. 0.0817804 
+        j : 0.0162212 .. 0.0162212 0.0162302 .. 0.0162302 0.0162212 .. 0.0162212 0.0162302 
+        k : 0.1
+    Block 14 cell size :
+        i : 0.115381 .. 0.115381 0.115489 .. 0.115489 0.115381 .. 0.115381 0.115489 .. 0.115489 
+        j : 0.0162212 .. 0.0162212 0.0162215 .. 0.0162215 0.0162212 .. 0.0162212 0.0162215 .. 0.0162215 
+        k : 0.1
+    Block 15 cell size :
+        i : 0.115 .. 0.115 0.115038 .. 0.115038 0.115 .. 0.115 0.115038 
+        j : 0.0191342 .. 0.0191342
+        k : 0.1
+    Block 16 cell size :
+        i : 0.282322 .. 0.282322
+        j : 0.0823223 .. 0.0823223
+        k : 0.1
+    Block 17 cell size :
+        i : 0.282322 .. 0.282322
+        j : 0.0823223
+        k : 0.1
+    Block 18 cell size :
+        i : 0.116464 .. 0.116464
+        j : 0.0823223 .. 0.0823223
+        k : 0.1
+    Block 19 cell size :
+        i : 0.116464 .. 0.116464
+        j : 0.0823223
+        k : 0.1
+Creating cells
+Creating patches
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 -0.05) (18 4 0.05)
+  nPoints: 23040
+  nCells: 11200
+  nFaces: 45120
+  nInternalFaces: 22080
+----------------
+Patches
+----------------
+  patch 0 (start: 22080 size: 80) name: inlet
+  patch 1 (start: 22160 size: 80) name: outlet
+  patch 2 (start: 22240 size: 160) name: polygon
+  patch 3 (start: 22400 size: 11200) name: top
+  patch 4 (start: 33600 size: 11200) name: bottom
+  patch 5 (start: 44800 size: 320) name: outside
+
+End
+

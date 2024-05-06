@@ -1,8 +1,0 @@
-/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4
-Sun Apr 28 13:20:25 CDT 2024
-Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4
-Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4
-Running decomposePar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4
-Running icoFoam in parallel on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4 using 16 processes
-Running reconstructPar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/blockgen-4
-Sun Apr 28 13:22:10 CDT 2024

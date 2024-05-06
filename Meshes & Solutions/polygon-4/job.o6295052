@@ -1,0 +1,8 @@
+/scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4
+Sun May  5 10:42:34 CDT 2024
+Running blockMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4
+Running checkMesh on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4
+Running decomposePar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4
+Running icoFoam in parallel on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4 using 16 processes
+Running reconstructPar on /scratch1/09824/gkitt/My_OpenFOAM/7.0/run/openfoam-project/long-4
+Sun May  5 11:32:19 CDT 2024
