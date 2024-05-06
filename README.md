@@ -15,5 +15,5 @@ Vortex Shedding Analysis: This section includes data and scripts related to our 
 In this directory, you'll find the results of our CFD simulations, including velocity profiles, pressure distributions, and flow separation patterns. Post-processing techniques are applied to visualize simulation results, providing insights into flow behavior over different polygon sizes.
 ### Literature: 
 This directory contains relevant research papers and references that informed our study, including notable works such as "Potential flow around polygonal shaped cylinders using hypotrochoidal mapping function" by Dhaval T Solanki and Dharmendra S Sharma.
-###Documentation: 
+### Documentation: 
 Detailed documentation regarding the methodology, analysis techniques, and objectives of our study is provided here. It serves as a comprehensive guide for understanding the research approach and findings.
